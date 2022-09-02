@@ -1,0 +1,15 @@
+{
+	"lm_epochs": 10,
+	"clas_epochs": 5,
+	"batch_size": 64,
+	"hidden_size": 256,
+	"num_layers": 1,
+	"dropout": 0.2,
+	"learning_rate": 1e-03,
+	"train_data_path": "data/train-valid-data.csv",
+	"test_data_path": "data/test-data.csv",
+	"out_of_vocab_path": "data/misspellings.txt",
+	"biowordvec_path": "data/bio_embedding_extrinsic",
+	"lm_weights_path": "lm-weights.pth",
+	"clas_weights_path": "clas-weights.pth"
+}
