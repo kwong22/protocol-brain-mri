@@ -1,6 +1,6 @@
 # AI-Assisted Brain MRI Protocolling
 
-This repository accompanies a paper currently under review[^1].
+This repository accompanies the paper "An Artificial Intelligence Tool for Clinical Decision Support and Protocol Selection for Brain MRI"[^1].
 
 The goal was to use text information associated with brain MRI exams (order diagnoses, reason for the exam, order comments) to predict the most appropriate protocol. This was accomplished using an LSTM[^2] model and pre-trained BioWordVec[^3] embeddings.
 
@@ -131,7 +131,6 @@ Use the following scripts to train and evaluate the model:
 
 
 ## References
-
-[^1]: Wong KA, Hatef A, Ryu JL, Nguyen XV, Makary MS, Prevedello LM. An Artificial Intelligence Tool for Clinical Decision Support and Protocol Selection for Brain MRI. 2022.
+[^1]: Wong KA, Hatef A, Ryu JL, Nguyen XV, Makary MS, Prevedello LM. An Artificial Intelligence Tool for Clinical Decision Support and Protocol Selection for Brain MRI. American Journal of Neuroradiology. 2023;44(1):11-16. doi:10.3174/ajnr.A7736
 [^2]: Hochreiter S, Schmidhuber J. Long Short-Term Memory. *Neural Computation*. 1997;9(8):1735-1780. doi:10.1162/neco.1997.9.8.1735
 [^3]: Zhang Y, Chen Q, Yang Z, Lin H, Lu Z. [BioWordVec, improving biomedical word embeddings with subword information and MeSH](https://www.nature.com/articles/s41597-019-0055-0). *Scientific Data*. 2019;6(1):52. doi:10.1038/s41597-019-0055-0
